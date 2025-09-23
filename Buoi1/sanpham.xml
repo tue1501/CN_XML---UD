@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sanpham_list SYSTEM "../DTD_Buoi1/sanpham.dtd">
 <sanpham_list>
-    <sanpham id="SP001" category="Điện tử" price="15000000" currency="VND">
-        Điện thoại iPhone 14 Pro
-    </sanpham>
-
-    <sanpham id="SP002" category="Thời trang" price="1200000" currency="VND">
-        Áo khoác da nam
-    </sanpham>
-
-    <sanpham id="SP003" category="Điện tử" price="25000000" currency="VND">
-        Laptop Dell XPS 13
-    </sanpham>
+    <sanpham id="SP001" category="Điện tử" price="15000000" currency="VND">Điện thoại iPhone 14 Pro</sanpham>
+    <sanpham id="SP002" category="Thời trang" price="1200000"  currency="VND">Áo khoác da nam</sanpham>
+    <sanpham id="SP003" category="Điện tử" price="25000000" currency="VND">Laptop Dell XPS 13</sanpham>
 </sanpham_list>
