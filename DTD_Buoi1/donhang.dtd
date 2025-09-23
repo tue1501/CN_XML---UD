@@ -1,0 +1,26 @@
+<!-- Root element -->
+<!ELEMENT orders (order:order+)>
+<!ATTLIST orders
+    xmlns:order CDATA #IMPLIED
+    xmlns:prod  CDATA #IMPLIED
+>
+
+<!-- Order -->
+<!ELEMENT order:order (prod:item+)>
+<!ATTLIST order:order
+    id       ID     #REQUIRED
+    customer CDATA  #REQUIRED
+    date     CDATA  #REQUIRED
+>
+
+<!-- Product item -->
+<!ELEMENT prod:item (prod:name)>
+<!ATTLIST prod:item
+    id       ID     #REQUIRED
+    quantity CDATA  #REQUIRED
+    price    CDATA  #REQUIRED
+    currency CDATA  #IMPLIED
+>
+
+<!-- Product name -->
+<!ELEMENT prod:name (#PCDATA)>

@@ -1,0 +1,9 @@
+<!ELEMENT sanpham_list (sanpham+)>
+
+<!ELEMENT sanpham (#PCDATA)>
+<!ATTLIST sanpham
+    id       ID     #REQUIRED
+    category CDATA  #REQUIRED
+    price    CDATA  #REQUIRED
+    currency CDATA  #IMPLIED
+>
