@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="library.xsd">
+    <book id="B001">
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <year>2008</year>
+        <genre>Software Engineering</genre>
+    </book>
+    <book id="B002">
+        <title>Refactoring</title>
+        <author>Martin Fowler</author>
+        <year>1999</year>
+        <genre>Software Engineering</genre>
+    </book>
+    <book id="B003">
+        <title>Atomic Habits</title>
+        <author>James Clear</author>
+        <year>2018</year>
+        <genre>Self-help</genre>
+    </book>
+</library>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="student_IDREF.xsd">
+    <student id="S1" name="Nguyen Van A"/>
+    <student id="S2" name="Tran Thi B"/>
+    <course id="C1" title="XML Schema">
+        <enrolled studentRef="S1"/>
+        <enrolled studentRef="S2"/>
+    </course>
+</class>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<university xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="student_unique.xsd">
+    <department name="IT">
+        <student code="101" name="Nguyen Van A"/>
+        <student code="102" name="Tran Thi B"/>
+    </department>
+</university>
