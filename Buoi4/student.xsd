@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="DSSV">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="KHOA" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaKhoa" type="xs:string"/>
+              <xs:element name="TenKhoa" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="LOP" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaLop" type="xs:string"/>
+              <xs:element name="TenLop" type="xs:string"/>
+              <xs:element name="MaKhoa" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="SINHVIEN" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaSV" type="xs:string"/>
+              <xs:element name="HoTen" type="xs:string"/>
+              <xs:element name="NgaySinh" type="xs:date"/>
+              <xs:element name="SoDT" type="xs:string"/>
+              <xs:element name="MaLop" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

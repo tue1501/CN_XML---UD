@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DSSV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="student_key.xsd">
+
+  <!-- Danh sách khoa -->
+  <KHOA>
+    <MaKhoa>K001</MaKhoa>
+    <TenKhoa>CongNghe</TenKhoa>
+  </KHOA>
+  <KHOA>
+    <MaKhoa>K002</MaKhoa>
+    <TenKhoa>KinhTe</TenKhoa>
+  </KHOA>
+
+  <!-- Danh sách lớp -->
+  <LOP>
+    <MaLop>L001</MaLop>
+    <TenLop>LT01</TenLop>
+    <MaKhoa>K001</MaKhoa>
+  </LOP>
+  <LOP>
+    <MaLop>L002</MaLop>
+    <TenLop>KT01</TenLop>
+    <MaKhoa>K002</MaKhoa>
+  </LOP>
+
+  <!-- Danh sách sinh viên -->
+  <SINHVIEN>
+    <MaSV>SV001</MaSV>
+    <HoTen>Nguyen Van A</HoTen>
+    <NgaySinh>2002-09-09</NgaySinh>
+    <SoDT>0912345678</SoDT>
+    <MaLop>L001</MaLop>
+  </SINHVIEN>
+  <SINHVIEN>
+    <MaSV>SV002</MaSV>
+    <HoTen>Tran Thi B</HoTen>
+    <NgaySinh>2002-05-10</NgaySinh>
+    <SoDT>0987654321</SoDT>
+    <MaLop>L002</MaLop>
+  </SINHVIEN>
+
+</DSSV>
